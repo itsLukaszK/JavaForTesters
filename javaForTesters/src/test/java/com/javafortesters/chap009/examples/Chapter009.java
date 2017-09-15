@@ -13,10 +13,13 @@ public class Chapter009 {
         users[1] = new User("User2", "Password2");
         users[2] = new User("User3", "Password3");
 
-        assertEquals("User1",users[0].getUsername());
-        assertEquals("User2",users[1].getUsername());
-        assertEquals("User3",users[2].getUsername());
-    }
+        assertEquals("User1", users[0].getUsername());
+        assertEquals("User2", users[1].getUsername());
+        assertEquals("User3", users[2].getUsername());
 
+        for (User user : users) {
+            System.out.println(user.getUsername());
+        }
+    }
 
 }
