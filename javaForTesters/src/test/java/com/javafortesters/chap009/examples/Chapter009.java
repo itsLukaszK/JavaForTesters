@@ -22,4 +22,17 @@ public class Chapter009 {
         }
     }
 
+    @Test
+    public void createAnArrayOf100Users() {
+        User[] users100 = new User[100];
+        int j = 1;
+        for (int i = 0; i < users100.length; i++) {
+
+            users100[i] = new User("user" + j, "password" + j);
+            j++;
+        }
+        assertEquals("user100", users100[99].getUsername());
+        assertEquals("password100", users100[99].getPassword());
+    }
+
 }
