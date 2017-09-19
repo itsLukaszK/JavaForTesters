@@ -1,8 +1,11 @@
 package com.javafortesters.chap010.examples;
 
+import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -22,5 +25,25 @@ public class Chapter010 {
         for (i = 0; !days.get(i).equals("Monday"); i++) {
         }
         assertEquals("Monday is at position 3", 3, i);
+    }
+
+    @Test
+    public void collectionOfUsers() {
+        Collection<User> users = new ArrayList<>();
+        assertEquals(0, users.size());
+        assertEquals(true, users.isEmpty());
+        User user1 = new User();
+        User user2 = new User();
+        users.add(user1);
+        users.add(user2);
+        assertEquals(2, users.size());
+        assertEquals(false, users.isEmpty());
+        Collection<User> users2 = new ArrayList<>();
+        User user3 = new User();
+        User user4 = new User();
+        users2.add(user3);
+        users2.add(user4);
+        users.addAll(users2);
+        // check that...
     }
 }
