@@ -9,6 +9,7 @@ import java.util.Collection;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class Chapter010 {
     @Test
@@ -44,6 +45,10 @@ public class Chapter010 {
         users2.add(user3);
         users2.add(user4);
         users.addAll(users2);
-        // check that...
+        assertEquals(true, users.containsAll(users2));
+        users2.removeAll(users2);
+        assertTrue(users2.isEmpty());
+        assertTrue(users.size() == 4);
+        users.clear();
     }
 }
