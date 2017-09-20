@@ -51,4 +51,16 @@ public class Chapter010 {
         assertTrue(users.size() == 4);
         users.clear();
     }
+
+    @Test
+    public void listOfUsers() {
+        List<User> users = new ArrayList<>();
+        User user1 = new User("username1","password1");
+        User user2 = new User("username2","password2");
+        users.add(user1);
+        users.add(0,user2);
+        assertEquals(0, users.indexOf(user2));
+        assertEquals(1, users.indexOf(user1));
+        // remove
+    }
 }

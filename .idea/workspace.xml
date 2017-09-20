@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java" />
     </list>
     <ignored path="$PROJECT_DIR$/javaForTesters/target/" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="Chapter010.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="845">
+              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -91,6 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,9 +150,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -176,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter010.collectionOfUsers">
+  <component name="RunManager" selected="JUnit.Chapter010.listOfUsers">
     <configuration name="Chapter009.createAnArrayOfUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -215,6 +217,31 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.chap010.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap010.examples.Chapter010" />
       <option name="METHOD_NAME" value="collectionOfUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Chapter010.listOfUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap010.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap010.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap010.examples.Chapter010" />
+      <option name="METHOD_NAME" value="listOfUsers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -308,14 +335,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +370,9 @@
     </history-entry>
     <history-entry file="Chapter010_collectionOfUsers - 2017.09.20 at 09h 53m 05s.xml">
       <configuration name="Chapter010.collectionOfUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter010_listOfUsers - 2017.09.20 at 16h 30m 48s.xml">
+      <configuration name="Chapter010.listOfUsers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -382,6 +414,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -512,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="845">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
           <folding />
         </state>
       </provider>
