@@ -3,10 +3,7 @@ package com.javafortesters.chap010.examples;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -63,5 +60,14 @@ public class Chapter010 {
         assertEquals(1, users.indexOf(user1));
         users.remove(user2);
         assertEquals(0, users.indexOf(user1));
+    }
+
+    @Test
+    public void setOfUsers(){
+        Set<User> users = new HashSet<>();
+        User user1 = new User("username1","password1");
+        users.add(user1);
+        users.add(user1);
+        assertEquals(1, users.size());
     }
 }
