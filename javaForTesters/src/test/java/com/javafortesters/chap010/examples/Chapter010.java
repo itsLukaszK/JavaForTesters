@@ -61,6 +61,7 @@ public class Chapter010 {
         users.add(0,user2);
         assertEquals(0, users.indexOf(user2));
         assertEquals(1, users.indexOf(user1));
-        // remove
+        users.remove(user2);
+        assertEquals(0, users.indexOf(user1));
     }
 }
