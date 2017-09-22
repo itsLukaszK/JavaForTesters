@@ -52,10 +52,10 @@ public class Chapter010 {
     @Test
     public void listOfUsers() {
         List<User> users = new ArrayList<>();
-        User user1 = new User("username1","password1");
-        User user2 = new User("username2","password2");
+        User user1 = new User("username1", "password1");
+        User user2 = new User("username2", "password2");
         users.add(user1);
-        users.add(0,user2);
+        users.add(0, user2);
         assertEquals(0, users.indexOf(user2));
         assertEquals(1, users.indexOf(user1));
         users.remove(user2);
@@ -63,11 +63,21 @@ public class Chapter010 {
     }
 
     @Test
-    public void setOfUsers(){
+    public void setOfUsers() {
         Set<User> users = new HashSet<>();
-        User user1 = new User("username1","password1");
+        User user1 = new User("username1", "password1");
         users.add(user1);
         users.add(user1);
         assertEquals(1, users.size());
+    }
+
+    @Test
+    public void mapOfUsers() {
+        Map<String, User> userMap = new HashMap<>();
+        User user1 = new User("username1", "password1");
+        User user2 = new User("username2", "password2");
+        userMap.put("User", user1);
+        userMap.put("User", user2);
+        assertEquals(1, userMap.size());
     }
 }
