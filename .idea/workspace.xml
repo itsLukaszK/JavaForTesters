@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/javaForTesters/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,17 +26,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chapter010.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chapter010.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="834">
               <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ExceptionsExampleTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +70,7 @@
       <list>
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java" />
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java" />
+        <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java" />
       </list>
     </option>
   </component>
@@ -92,10 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +171,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter010.mapOfUsers">
+  <component name="RunManager" selected="JUnit.ExceptionsExampleTest.throwANullPointerException">
     <configuration name="Chapter009.createAnArrayOfUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -278,6 +299,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="ExceptionsExampleTest.throwANullPointerException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap011exceptions.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap011exceptions.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap011exceptions.examples.ExceptionsExampleTest" />
+      <option name="METHOD_NAME" value="throwANullPointerException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -359,18 +405,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwANullPointerException" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwANullPointerException" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +453,12 @@
     </history-entry>
     <history-entry file="Chapter010_mapOfUsers - 2017.09.22 at 08h 46m 16s.xml">
       <configuration name="Chapter010.mapOfUsers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.26 at 16h 35m 09s.xml">
+      <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.26 at 16h 40m 39s.xml">
+      <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -446,6 +500,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -624,9 +694,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="834">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
