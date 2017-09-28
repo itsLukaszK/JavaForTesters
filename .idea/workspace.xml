@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/domainentities/User.java" afterPath="$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/domainentities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/javaForTesters/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="Chapter010.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
-              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="1309">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,11 +38,23 @@
       <file leaf-file-name="ExceptionsExampleTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/domainentities/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +81,7 @@
       <list>
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java" />
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java" />
+        <option value="$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java" />
       </list>
     </option>
@@ -113,8 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +142,30 @@
               <item name="JavaForTesters" type="462c0819:PsiDirectoryNode" />
               <item name="javaForTesters" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaForTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="javaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaForTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="javaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaForTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="javaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domainentities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaForTesters" type="b2602c69:ProjectViewProjectNode" />
@@ -167,12 +201,24 @@
               <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaForTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="javaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,31 +245,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.ExceptionsExampleTest.throwANullPointerException">
-    <configuration name="Chapter009.createAnArrayOfUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.chap009.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaForTesters" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap009.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap009.examples.Chapter009" />
-      <option name="METHOD_NAME" value="createAnArrayOfUsers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="Chapter010.collectionOfUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -324,6 +345,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="ExceptionsExampleTest.throwAnUserException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap011exceptions.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap011exceptions.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap011exceptions.examples.ExceptionsExampleTest" />
+      <option name="METHOD_NAME" value="throwAnUserException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -406,19 +452,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwANullPointerException" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwANullPointerException" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwAnUserException" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwANullPointerException" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter009.createAnArrayOfUsers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExceptionsExampleTest.throwAnUserException" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter010.mapOfUsers" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter010.listOfUsers" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter010.collectionOfUsers" />
       </list>
     </recent_temporary>
   </component>
@@ -460,13 +506,19 @@
     <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.26 at 16h 40m 39s.xml">
       <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.28 at 14h 49m 00s.xml">
+      <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExceptionsExampleTest_throwAnUserException - 2017.09.28 at 12h 41m 26s.xml">
+      <configuration name="ExceptionsExampleTest.throwAnUserException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -500,6 +552,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap009/examples/Chapter009.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -694,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap010/examples/Chapter010.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="1309">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -704,16 +784,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/domainentities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
           </folding>
         </state>
       </provider>
