@@ -1,8 +1,12 @@
 package com.javafortesters.domainentities;
 
+
+import com.javafortesters.domainobject.TestAppEnv;
+
 public class User {
     private String username;
     private String password;
+
 
     public User() {
         this("username", "password");
@@ -26,5 +30,13 @@ public class User {
             throw new IllegalArgumentException("Password must be > 6 chars");
         }
         this.password = password;
+    }
+
+    public String getUrl(){
+        return TestAppEnv.getUrl();
+    }
+
+    public String getPermission() {
+        return "Normal";
     }
 }
