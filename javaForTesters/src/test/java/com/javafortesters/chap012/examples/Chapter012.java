@@ -1,6 +1,7 @@
 package com.javafortesters.chap012.examples;
 
 import com.javafortesters.domainentities.AdminUser;
+import com.javafortesters.domainentities.ReadOnlyUser;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
@@ -35,5 +36,11 @@ public class Chapter012 {
         assertEquals("Elevated", adminUser.getPermission());
     }
 
-
+    @Test
+    public void createAReadOnlyUser() {
+        ReadOnlyUser readOnlyUser = new ReadOnlyUser();
+        assertEquals("ReadOnly", readOnlyUser.getPermission());
+        assertEquals("username", readOnlyUser.getUsername());
+        assertEquals("password", readOnlyUser.getPassword());
+    }
 }
