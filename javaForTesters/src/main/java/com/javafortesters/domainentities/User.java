@@ -9,10 +9,19 @@ public class User {
 
 
     public User() {
-        this("username", "password");
+        this("username", "password", false);
     }
 
-    public User(String username, String password) {
+    private User(String username, String password, boolean b) {
+        this.username = username;
+        try {
+            setPassword(password);
+        } catch (InvalidPassword e) {
+            throw new IllegalArgumentException("Default password incorrect ", e);
+        }
+    }
+
+    public User(String username, String password) throws InvalidPassword {
         this.username = username;
         setPassword(password);
     }
@@ -25,14 +34,14 @@ public class User {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(String password) throws InvalidPassword {
         if (password.length() < 7) {
-            throw new IllegalArgumentException("Password must be > 6 chars");
+            throw new InvalidPassword("Password must be >6 chars");
         }
         this.password = password;
     }
 
-    public String getUrl(){
+    public String getUrl() {
         return TestAppEnv.getUrl();
     }
 

@@ -1,5 +1,6 @@
 package com.javafortesters.chap010.examples;
 
+import com.javafortesters.domainentities.InvalidPassword;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
@@ -50,7 +51,7 @@ public class Chapter010 {
     }
 
     @Test
-    public void listOfUsers() {
+    public void listOfUsers() throws InvalidPassword {
         List<User> users = new ArrayList<>();
         User user1 = new User("username1", "password1");
         User user2 = new User("username2", "password2");
@@ -63,7 +64,7 @@ public class Chapter010 {
     }
 
     @Test
-    public void setOfUsers() {
+    public void setOfUsers() throws InvalidPassword {
         Set<User> users = new HashSet<>();
         User user1 = new User("username1", "password1");
         users.add(user1);
@@ -72,7 +73,7 @@ public class Chapter010 {
     }
 
     @Test
-    public void mapOfUsers() {
+    public void mapOfUsers() throws InvalidPassword {
         Map<String, User> userMap = new HashMap<>();
         User user1 = new User("username1", "password1");
         User user2 = new User("username2", "password2");

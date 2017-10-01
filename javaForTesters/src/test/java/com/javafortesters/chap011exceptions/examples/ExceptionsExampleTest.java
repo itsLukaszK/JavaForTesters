@@ -1,5 +1,6 @@
 package com.javafortesters.chap011exceptions.examples;
 
+import com.javafortesters.domainentities.InvalidPassword;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
@@ -30,7 +31,7 @@ public class ExceptionsExampleTest {
     }
 
     @Test
-    public void throwAnUserException() {
+    public void throwAnUserException() throws InvalidPassword {
         User user1 = new User("user1", "passw1");
     }
 }

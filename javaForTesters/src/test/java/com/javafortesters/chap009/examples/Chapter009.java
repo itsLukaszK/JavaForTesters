@@ -1,5 +1,6 @@
 package com.javafortesters.chap009.examples;
 
+import com.javafortesters.domainentities.InvalidPassword;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
 
@@ -9,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Chapter009 {
     @Test
-    public void createAnArrayOfUsers() {
+    public void createAnArrayOfUsers() throws InvalidPassword {
         User[] users = new User[3];
         users[0] = new User("User1", "Password1");
         users[1] = new User("User2", "Password2");
@@ -25,7 +26,7 @@ public class Chapter009 {
     }
 
     @Test
-    public void createAnArrayOf100Users() {
+    public void createAnArrayOf100Users() throws InvalidPassword {
         User[] users100 = new User[100];
         int j = 1;
         for (int i = 0; i < users100.length; i++) {

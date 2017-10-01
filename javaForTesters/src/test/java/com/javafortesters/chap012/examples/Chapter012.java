@@ -1,6 +1,7 @@
 package com.javafortesters.chap012.examples;
 
 import com.javafortesters.domainentities.AdminUser;
+import com.javafortesters.domainentities.InvalidPassword;
 import com.javafortesters.domainentities.ReadOnlyUser;
 import com.javafortesters.domainentities.User;
 import org.junit.Test;
@@ -21,7 +22,7 @@ public class Chapter012 {
     }
 
     @Test
-    public void anAdminUserDefaultConstructor() {
+    public void anAdminUserDefaultConstructor() throws InvalidPassword {
         AdminUser adminUser = new AdminUser();
         assertEquals("adminuser", adminUser.getUsername());
         assertEquals("password", adminUser.getPassword());
@@ -29,7 +30,7 @@ public class Chapter012 {
     }
 
     @Test
-    public void anAdminUserHasElevatedPermissions() {
+    public void anAdminUserHasElevatedPermissions() throws InvalidPassword {
         AdminUser adminUser = new AdminUser("admin", "Passw0rd");
         assertEquals("admin", adminUser.getUsername());
         assertEquals("Passw0rd", adminUser.getPassword());
