@@ -13,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chapter013.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chapter013.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap013/examples/Chapter013.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter014JUnitExplored.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,6 +73,7 @@
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap013/examples/Chapter013.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java" />
       </list>
     </option>
   </component>
@@ -93,10 +106,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,10 +181,20 @@
               <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaForTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaForTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafortesters" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter013.errorMessageThrownContainsTheText">
+  <component name="RunManager" selected="JUnit.Chapter014JUnitExplored.AllOfTheAsserts">
     <configuration name="Chapter013.constructUserWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -272,31 +294,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Chapter013.haveToCatchIllegalPasswordForParamConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.chap013.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaForTesters" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap013.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap013.examples.Chapter013" />
-      <option name="METHOD_NAME" value="haveToCatchIllegalPasswordForParamConstructor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="Chapter013.theInvalidPasswordExceptionIsThrownOnSetPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -310,6 +307,31 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.chap013.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap013.examples.Chapter013" />
       <option name="METHOD_NAME" value="theInvalidPasswordExceptionIsThrownOnSetPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Chapter014JUnitExplored.AllOfTheAsserts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap014.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap014.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap014.examples.Chapter014JUnitExplored" />
+      <option name="METHOD_NAME" value="AllOfTheAsserts" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -404,19 +426,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter013.haveToCatchIllegalPasswordForParamConstructor" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter013.constructUserWithException" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter013.createDefaultUserWithNoThrowsInvalidPasswordException" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter013.errorMessageThrownContainsTheText" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter013.theInvalidPasswordExceptionIsThrownOnSetPassword" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter013.constructUserWithException" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter013.createDefaultUserWithNoThrowsInvalidPasswordException" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter013.errorMessageThrownContainsTheText" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter013.theInvalidPasswordExceptionIsThrownOnSetPassword" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.AllOfTheAsserts" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter013.errorMessageThrownContainsTheText" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter013.theInvalidPasswordExceptionIsThrownOnSetPassword" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter013.createDefaultUserWithNoThrowsInvalidPasswordException" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter013.constructUserWithException" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter013.haveToCatchIllegalPasswordForParamConstructor" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.AllOfTheAsserts" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter013.errorMessageThrownContainsTheText" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter013.theInvalidPasswordExceptionIsThrownOnSetPassword" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter013.createDefaultUserWithNoThrowsInvalidPasswordException" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter013.constructUserWithException" />
       </list>
     </recent_temporary>
   </component>
@@ -434,12 +456,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter013_constructUserWithException - 2017.10.01 at 11h 33m 35s.xml">
-      <configuration name="Chapter013.constructUserWithException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter013_createDefaultUserWithNoThrowsInvalidPasswordException - 2017.10.01 at 11h 36m 03s.xml">
-      <configuration name="Chapter013.createDefaultUserWithNoThrowsInvalidPasswordException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter013_errorMessageThrownContainsTheText - 2017.10.01 at 11h 39m 58s.xml">
       <configuration name="Chapter013.errorMessageThrownContainsTheText" configurationId="JUnit" />
     </history-entry>
@@ -463,6 +479,12 @@
     </history-entry>
     <history-entry file="Chapter013_theInvalidPasswordExceptionIsThrownOnSetPassword - 2017.10.01 at 11h 44m 57s.xml">
       <configuration name="Chapter013.theInvalidPasswordExceptionIsThrownOnSetPassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter014JUnitExplored_AllOfTheAsserts - 2017.10.01 at 19h 00m 56s.xml">
+      <configuration name="Chapter014JUnitExplored.AllOfTheAsserts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter014JUnitExplored_AllOfTheAsserts - 2017.10.01 at 19h 01m 36s.xml">
+      <configuration name="Chapter014JUnitExplored.AllOfTheAsserts" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -506,14 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap012/examples/Chapter012.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -787,10 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <element signature="e#133#134#0" expanded="false" />
-            <element signature="e#166#167#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="33" column="61" lean-forward="false" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1136">
           <caret line="78" column="21" lean-forward="false" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,8 +863,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap013/examples/Chapter013.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
