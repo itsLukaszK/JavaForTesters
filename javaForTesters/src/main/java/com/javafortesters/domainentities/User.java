@@ -18,10 +18,12 @@ public class User {
             setPassword(password);
         } catch (InvalidPassword e) {
             throw new IllegalArgumentException("Default password incorrect ", e);
+        } catch (IllegalPassword illegalPassword) {
+            throw new IllegalArgumentException("Default password incorrect", illegalPassword);
         }
     }
 
-    public User(String username, String password) throws InvalidPassword {
+    public User(String username, String password) throws InvalidPassword, IllegalPassword {
         this.username = username;
         setPassword(password);
     }
@@ -34,9 +36,16 @@ public class User {
         return password;
     }
 
-    public void setPassword(String password) throws InvalidPassword {
+    public void setPassword(String password) throws InvalidPassword, IllegalPassword {
         if (password.length() < 7) {
             throw new InvalidPassword("Password must be >6 chars");
+        }
+
+        String doesContainADigit = ".*[0-9]+.*";
+        String doesContainAnUppercase = ".*[A-Z]+.*";
+
+        if (!password.matches(doesContainADigit) || !password.matches(doesContainAnUppercase)) {
+            throw new IllegalPassword("Password must contain one or more digit and uppercase");
         }
         this.password = password;
     }
