@@ -13,23 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chapter014JUnitExplored.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Chapter015StringsRevisited.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="493">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="461">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -80,10 +68,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap009/examples/Chapter009.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/InvalidPassword.java" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap013/examples/Chapter013.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java" />
       </list>
     </option>
@@ -117,8 +105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -229,57 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter015StringsRevisited.constructString">
-    <configuration name="Chapter013.errorMessageThrownContainsTheText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.chap013.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaForTesters" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap013.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap013.examples.Chapter013" />
-      <option name="METHOD_NAME" value="errorMessageThrownContainsTheText" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Chapter014JUnitExplored.AllOfTheAsserts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.chap014.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaForTesters" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap014.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap014.examples.Chapter014JUnitExplored" />
-      <option name="METHOD_NAME" value="AllOfTheAsserts" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Chapter015StringsRevisited.insertIntoAStringBuilder">
     <configuration name="Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -293,6 +231,31 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.chap014.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap014.examples.Chapter014JUnitExplored" />
       <option name="METHOD_NAME" value="assertThatInsteadOfAllOfTheAsserts" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap015.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap015.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap015.examples.Chapter015StringsRevisited" />
+      <option name="METHOD_NAME" value="checkStringBuilderResizes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -343,6 +306,31 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.chap015.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap015.examples.Chapter015StringsRevisited" />
       <option name="METHOD_NAME" value="escapeCharacters" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Chapter015StringsRevisited.insertIntoAStringBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap015.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap015.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap015.examples.Chapter015StringsRevisited" />
+      <option name="METHOD_NAME" value="insertIntoAStringBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -437,19 +425,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter013.errorMessageThrownContainsTheText" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.AllOfTheAsserts" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.escapeCharacters" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.constructString" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.escapeCharacters" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.constructString" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.checkStringBuilderResizes" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.insertIntoAStringBuilder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.constructString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.escapeCharacters" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.AllOfTheAsserts" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter013.errorMessageThrownContainsTheText" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.insertIntoAStringBuilder" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.checkStringBuilderResizes" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.constructString" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.escapeCharacters" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" />
       </list>
     </recent_temporary>
   </component>
@@ -467,35 +455,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter014JUnitExplored_AllOfTheAsserts - 2017.10.01 at 19h 00m 56s.xml">
-      <configuration name="Chapter014JUnitExplored.AllOfTheAsserts" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 33m 06s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter014JUnitExplored_AllOfTheAsserts - 2017.10.01 at 19h 01m 36s.xml">
-      <configuration name="Chapter014JUnitExplored.AllOfTheAsserts" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 34m 16s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter014JUnitExplored_assertThatInsteadOfAllOfTheAsserts - 2017.10.03 at 19h 44m 07s.xml">
-      <configuration name="Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 34m 55s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter014JUnitExplored_assertThatInsteadOfAllOfTheAsserts - 2017.10.03 at 19h 45m 55s.xml">
-      <configuration name="Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 35m 46s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter014JUnitExplored_assertThatInsteadOfAllOfTheAsserts - 2017.10.03 at 19h 50m 17s.xml">
-      <configuration name="Chapter014JUnitExplored.assertThatInsteadOfAllOfTheAsserts" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 36m 05s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter015StringsRevisited_constructString - 2017.10.03 at 22h 43m 06s.xml">
-      <configuration name="Chapter015StringsRevisited.constructString" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 36m 31s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter015StringsRevisited_constructString - 2017.10.03 at 22h 49m 23s.xml">
-      <configuration name="Chapter015StringsRevisited.constructString" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_checkStringBuilderResizes - 2017.10.11 at 22h 36m 47s.xml">
+      <configuration name="Chapter015StringsRevisited.checkStringBuilderResizes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter015StringsRevisited_escapeCharacters - 2017.10.03 at 22h 24m 57s.xml">
-      <configuration name="Chapter015StringsRevisited.escapeCharacters" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_insertIntoAStringBuilder - 2017.10.11 at 22h 48m 01s.xml">
+      <configuration name="Chapter015StringsRevisited.insertIntoAStringBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter015StringsRevisited_escapeCharacters - 2017.10.03 at 22h 26m 04s.xml">
-      <configuration name="Chapter015StringsRevisited.escapeCharacters" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_insertIntoAStringBuilder - 2017.10.11 at 22h 50m 01s.xml">
+      <configuration name="Chapter015StringsRevisited.insertIntoAStringBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter015StringsRevisited_escapeCharacters - 2017.10.03 at 22h 28m 19s.xml">
-      <configuration name="Chapter015StringsRevisited.escapeCharacters" configurationId="JUnit" />
+    <history-entry file="Chapter015StringsRevisited_insertIntoAStringBuilder - 2017.10.11 at 22h 51m 37s.xml">
+      <configuration name="Chapter015StringsRevisited.insertIntoAStringBuilder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -515,6 +503,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -526,7 +515,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -841,28 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/InvalidPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap013/examples/Chapter013.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,32 +840,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/InvalidPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="397">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap014/examples/Chapter014JUnitExplored.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javafortesters/domainentities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="461">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="493">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,7 +9,7 @@ public class User {
 
 
     public User() {
-        this("username", "password", false);
+        this("username", "Passw0rd", false);
     }
 
     private User(String username, String password, boolean b) {
@@ -18,12 +18,10 @@ public class User {
             setPassword(password);
         } catch (InvalidPassword e) {
             throw new IllegalArgumentException("Default password incorrect ", e);
-        } catch (IllegalPassword illegalPassword) {
-            throw new IllegalArgumentException("Default password incorrect", illegalPassword);
         }
     }
 
-    public User(String username, String password) throws InvalidPassword, IllegalPassword {
+    public User(String username, String password) throws InvalidPassword {
         this.username = username;
         setPassword(password);
     }
@@ -36,7 +34,7 @@ public class User {
         return password;
     }
 
-    public void setPassword(String password) throws InvalidPassword, IllegalPassword {
+    public void setPassword(String password) throws InvalidPassword {
         if (password.length() < 7) {
             throw new InvalidPassword("Password must be >6 chars");
         }
@@ -45,7 +43,7 @@ public class User {
         String doesContainAnUppercase = ".*[A-Z]+.*";
 
         if (!password.matches(doesContainADigit) || !password.matches(doesContainAnUppercase)) {
-            throw new IllegalPassword("Password must contain one or more digit and uppercase");
+            throw new InvalidPassword("Password must contain one or more digit and uppercase");
         }
         this.password = password;
     }

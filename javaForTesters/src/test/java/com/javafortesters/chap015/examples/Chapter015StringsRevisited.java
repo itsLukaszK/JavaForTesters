@@ -56,4 +56,22 @@ public class Chapter015StringsRevisited {
         findPositionsOfAllOccurrencesInAString("Hello fella", "l");
     }
 
+    @Test
+    public void checkStringBuilderResizes() {
+        StringBuilder builder = new StringBuilder();
+        int capacityBefore = builder.capacity();
+        builder.append("qwertyuiopasdfghj");
+        System.out.println(builder.capacity());
+        assertTrue(capacityBefore < builder.capacity());
+    }
+
+    @Test
+    public void insertIntoAStringBuilder() {
+        StringBuilder builder = new StringBuilder();
+        String s = "String example";
+        builder.insert(0, s);
+        builder.insert(builder.length(), s);
+        builder.insert(builder.length()/2, s);
+        System.out.println(builder);
+    }
 }
