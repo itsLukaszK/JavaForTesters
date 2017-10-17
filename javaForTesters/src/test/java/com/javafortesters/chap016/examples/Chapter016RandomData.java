@@ -2,6 +2,9 @@ package com.javafortesters.chap016.examples;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 import java.util.Random;
 
 import static java.lang.Math.abs;
@@ -50,8 +53,23 @@ public class Chapter016RandomData {
                 System.out.println(randomByte);
             }
         }
+    }
 
+    @Test
+    public void generateNumbersBetween15And20() {
+        Random random = new Random();
+        int minValue = 15;
+        int maxValue = 20;
+        List<Integer> randomIntegers = new ArrayList<>();
 
+        for (int i = 0; i < 1000; i++) {
+            randomIntegers.add(random.nextInt(maxValue - minValue + 1) + minValue);
+        }
+
+        for (int i = minValue; i <= maxValue; i++) {
+            assertTrue(randomIntegers.contains(i));
+            System.out.println(i);
+        }
     }
 }
 

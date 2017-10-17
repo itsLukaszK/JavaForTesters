@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/AdminUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/IllegalPassword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/InvalidPassword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/ReadOnlyUser.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainobject/TestAppEnv.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/javaForTesters.iml" afterPath="$PROJECT_DIR$/javaForTesters/javaForTesters.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap016/examples/Chapter016RandomData.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap016/examples/Chapter016RandomData.java" />
     </list>
     <ignored path="$PROJECT_DIR$/javaForTesters/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chapter015StringsRevisited.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java">
+      <file leaf-file-name="Chapter016RandomData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap016/examples/Chapter016RandomData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="579">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,6 +60,7 @@
         <option value="$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/domainentities/AdminUser.java" />
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap012/examples/Chapter012.java" />
         <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java" />
+        <option value="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap016/examples/Chapter016RandomData.java" />
       </list>
     </option>
   </component>
@@ -101,6 +103,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,9 +216,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter015StringsRevisited.findPositionsOfAllOccurrencesInAHelloString">
+  <component name="RunManager" selected="JUnit.Chapter016RandomData.generateNumbersBetween15And20">
     <configuration name="Chapter012" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -260,31 +262,6 @@
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap012.examples.Chapter012" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Chapter012.aUserHasNormalPermissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.javafortesters.domainentities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaForTesters" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap012.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap012.examples.Chapter012" />
-      <option name="METHOD_NAME" value="aUserHasNormalPermissions" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -359,6 +336,31 @@
       <option name="PACKAGE_NAME" value="com.javafortesters.chap015.examples" />
       <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap015.examples.Chapter015StringsRevisited" />
       <option name="METHOD_NAME" value="useRegionMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Chapter016RandomData.generateNumbersBetween15And20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.javafortesters.chap016.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaForTesters" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap016.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap016.examples.Chapter016RandomData" />
+      <option name="METHOD_NAME" value="generateNumbersBetween15And20" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -453,19 +455,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter012.aUserHasNormalPermissions" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter012.anAdminUserDefaultConstructor" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter012" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.useRegionMatches" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.findPositionsOfAllOccurrencesInAHelloString" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter012.anAdminUserDefaultConstructor" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter012" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.useRegionMatches" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.findPositionsOfAllOccurrencesInAHelloString" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.generateNumbersBetween15And20" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.findPositionsOfAllOccurrencesInAHelloString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.useRegionMatches" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter012" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter012.anAdminUserDefaultConstructor" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter012.aUserHasNormalPermissions" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.generateNumbersBetween15And20" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.findPositionsOfAllOccurrencesInAHelloString" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter015StringsRevisited.useRegionMatches" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter012" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter012.anAdminUserDefaultConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -483,12 +485,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter012_UserComposedOfTestAppEnv - 2017.09.29 at 11h 57m 51s.xml">
-      <configuration name="Chapter012.UserComposedOfTestAppEnv" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter012_aUserHasNormalPermissions - 2017.09.29 at 13h 54m 29s.xml">
-      <configuration name="Chapter012.aUserHasNormalPermissions" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter012_anAdminUserDefaultConstructor - 2017.09.29 at 14h 03m 08s.xml">
       <configuration name="Chapter012.anAdminUserDefaultConstructor" configurationId="JUnit" />
     </history-entry>
@@ -500,6 +496,12 @@
     </history-entry>
     <history-entry file="Chapter015StringsRevisited_useRegionMatches - 2017.10.04 at 16h 03m 10s.xml">
       <configuration name="Chapter015StringsRevisited.useRegionMatches" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter016RandomData_generateNumbersBetween15And20 - 2017.10.17 at 16h 43m 08s.xml">
+      <configuration name="Chapter016RandomData.generateNumbersBetween15And20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter016RandomData_generateNumbersBetween15And20 - 2017.10.17 at 16h 43m 28s.xml">
+      <configuration name="Chapter016RandomData.generateNumbersBetween15And20" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.26 at 16h 35m 09s.xml">
       <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
@@ -553,11 +555,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap012/examples/Chapter012.java">
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap012/examples/Chapter012.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -573,10 +590,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -584,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,9 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,10 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,9 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="834">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="834">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,10 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,8 +895,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap015/examples/Chapter015StringsRevisited.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="800">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap016/examples/Chapter016RandomData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
