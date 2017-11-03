@@ -71,5 +71,53 @@ public class Chapter016RandomData {
             System.out.println(i);
         }
     }
+
+    @Test
+    public void showTheDistribution() {
+        Random random = new Random();
+        double randomGaussian;
+        double oneStandardDeviation = 0;
+        double twoStandardDeviation = 0;
+        double threeStandardDeviation = 0;
+        double fourStandardDeviation = 0;
+        for (int i = 0; i < 1000; i++) {
+            randomGaussian = random.nextGaussian();
+            if (Math.abs(randomGaussian) <= 4.0d) {
+                fourStandardDeviation++;
+                if (Math.abs(randomGaussian) <= 3.0d) {
+                    threeStandardDeviation++;
+                    if (Math.abs(randomGaussian) <= 2.0d) {
+                        twoStandardDeviation++;
+                        if (Math.abs(randomGaussian) <= 1.0d) {
+                            oneStandardDeviation++;
+                        }
+                    }
+                }
+            }
+        }
+        System.out.println("About 70% one standard deviation = " + oneStandardDeviation / 1000f * 100f);
+        System.out.println("About 95% two standard deviation = " + twoStandardDeviation / 1000f * 100f);
+        System.out.println("About 99% three standard deviation = " + threeStandardDeviation / 1000f * 100f);
+        System.out.println("About 99.9% four standard deviation = " + fourStandardDeviation / 1000f * 100f);
+    }
+
+    @Test
+    public void generate1000AgesUsingNextGaussian() {
+        Random random = new Random();
+        List<Double> randomDoubles = new ArrayList<>();
+        for (int i = 0; i < 1000; i++) {
+            randomDoubles.add(random.nextGaussian() * 5 + 35);
+        }
+        for (int i = 0; i <= 100; i++) {
+            int temp = 0;
+            for (int j = 0; j < 1000; j++) {
+                if (i == randomDoubles.get(j).intValue()) {
+                    temp++;
+                }
+            }
+            System.out.println(i + " : " + temp);
+        }
+    }
 }
+
 
