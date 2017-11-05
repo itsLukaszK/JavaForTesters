@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 
 import static java.lang.Math.abs;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class Chapter016RandomData {
@@ -117,6 +118,27 @@ public class Chapter016RandomData {
             }
             System.out.println(i + " : " + temp);
         }
+    }
+
+    @Test
+    public void randomWithSeed() {
+        Random random = new Random(1234567L);
+        assertEquals(random.nextInt(), 1042961893);
+        assertEquals(random.nextLong(), -6749250865724111202L);
+    }
+
+    @Test
+    public void randomString() {
+        Random random = new Random();
+        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ";
+        String randomString = "";
+        int index;
+        for (int i = 0; i < 100; i++) {
+            index = random.nextInt(characters.length());
+            randomString += characters.charAt(index);
+        }
+        System.out.println(randomString);
+        assertEquals(randomString.length(), 100);
     }
 }
 
