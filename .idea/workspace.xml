@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap019/examples/Chapter019Files.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/AdminUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/InvalidPassword.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/ReadOnlyUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainobject/TestAppEnv.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap019/examples/Chapter019Files.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap019/examples/Chapter019Files.java" />
     </list>
     <ignored path="$PROJECT_DIR$/javaForTesters/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +27,8 @@
       <file leaf-file-name="Chapter019Files.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap019/examples/Chapter019Files.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="544">
+              <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -250,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Chapter019Files.createATemporaryFileWithCustomCode">
+  <component name="RunManager" selected="JUnit.Chapter019Files.checkCanonicalConvertion">
     <configuration name="Chapter016RandomData.generate1000AgesUsingNextGaussian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -276,19 +270,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Chapter016RandomData.showTheDistribution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter019Files.checkCanonicalConvertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.javafortesters.chap016.examples.*" />
+          <option name="PATTERN" value="com.javafortesters.chap019.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="javaForTesters" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javafortesters.chap016.examples" />
-      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap016.examples.Chapter016RandomData" />
-      <option name="METHOD_NAME" value="showTheDistribution" />
+      <option name="PACKAGE_NAME" value="com.javafortesters.chap019.examples" />
+      <option name="MAIN_CLASS_NAME" value="com.javafortesters.chap019.examples.Chapter019Files" />
+      <option name="METHOD_NAME" value="checkCanonicalConvertion" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -458,19 +452,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.showTheDistribution" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.generate1000AgesUsingNextGaussian" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATempFileAndVaryTheParameters" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter019Files.writeOutTheRoots" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATemporaryFileWithCustomCode" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.generate1000AgesUsingNextGaussian" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATempFileAndVaryTheParameters" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter019Files.writeOutTheRoots" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATemporaryFileWithCustomCode" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter019Files.checkCanonicalConvertion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATemporaryFileWithCustomCode" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter019Files.writeOutTheRoots" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATempFileAndVaryTheParameters" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.generate1000AgesUsingNextGaussian" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.showTheDistribution" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Chapter019Files.checkCanonicalConvertion" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATemporaryFileWithCustomCode" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Chapter019Files.writeOutTheRoots" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Chapter019Files.createATempFileAndVaryTheParameters" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Chapter016RandomData.generate1000AgesUsingNextGaussian" />
       </list>
     </recent_temporary>
   </component>
@@ -488,14 +482,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter016RandomData_showTheDistribution - 2017.11.03 at 10h 50m 44s.xml">
-      <configuration name="Chapter016RandomData.showTheDistribution" configurationId="JUnit" />
+    <history-entry file="Chapter019Files_checkCanonicalConvertion - 2017.11.06 at 19h 21m 16s.xml">
+      <configuration name="Chapter019Files.checkCanonicalConvertion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter016RandomData_showTheDistribution - 2017.11.03 at 10h 52m 19s.xml">
-      <configuration name="Chapter016RandomData.showTheDistribution" configurationId="JUnit" />
+    <history-entry file="Chapter019Files_checkCanonicalConvertion - 2017.11.06 at 19h 22m 10s.xml">
+      <configuration name="Chapter019Files.checkCanonicalConvertion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter016RandomData_showTheDistribution - 2017.11.03 at 10h 56m 21s.xml">
-      <configuration name="Chapter016RandomData.showTheDistribution" configurationId="JUnit" />
+    <history-entry file="Chapter019Files_checkCanonicalConvertion - 2017.11.06 at 19h 22m 31s.xml">
+      <configuration name="Chapter019Files.checkCanonicalConvertion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter019Files_checkCanonicalConvertion - 2017.11.06 at 19h 22m 54s.xml">
+      <configuration name="Chapter019Files.checkCanonicalConvertion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter019Files_checkCanonicalConvertion - 2017.11.06 at 19h 24m 42s.xml">
+      <configuration name="Chapter019Files.checkCanonicalConvertion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter019Files_checkCanonicalConvertion - 2017.11.06 at 19h 25m 08s.xml">
+      <configuration name="Chapter019Files.checkCanonicalConvertion" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Chapter019Files_createATempFileAndVaryTheParameters - 2017.11.06 at 18h 41m 25s.xml">
       <configuration name="Chapter019Files.createATempFileAndVaryTheParameters" configurationId="JUnit" />
@@ -503,20 +506,11 @@
     <history-entry file="Chapter019Files_createATemporaryFileWithCustomCode - 2017.11.06 at 19h 02m 57s.xml">
       <configuration name="Chapter019Files.createATemporaryFileWithCustomCode" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Chapter019Files_createATemporaryFileWithCustomCode - 2017.11.06 at 19h 16m 00s.xml">
+      <configuration name="Chapter019Files.createATemporaryFileWithCustomCode" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="Chapter019Files_writeOutTheRoots - 2017.11.06 at 18h 49m 03s.xml">
       <configuration name="Chapter019Files.writeOutTheRoots" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.26 at 16h 35m 09s.xml">
-      <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.26 at 16h 40m 39s.xml">
-      <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExceptionsExampleTest_throwANullPointerException - 2017.09.28 at 14h 49m 00s.xml">
-      <configuration name="ExceptionsExampleTest.throwANullPointerException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExceptionsExampleTest_throwAnUserException - 2017.09.28 at 12h 41m 26s.xml">
-      <configuration name="ExceptionsExampleTest.throwAnUserException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -914,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/chap019/examples/Chapter019Files.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

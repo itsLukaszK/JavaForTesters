@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.*;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -41,8 +42,25 @@ public class Chapter019Files {
         String systemTemporaryDirectory = System.getProperty("java.io.tmpdir");
         File file = new File(systemTemporaryDirectory, System.currentTimeMillis() + ".txt");
         file.createNewFile();
+        System.out.println(file.getAbsolutePath());
+        System.out.println(file.getCanonicalPath());
         assertTrue(file.exists());
         file.delete();
         assertFalse(file.exists());
+    }
+
+    @Test
+    public void checkCanonicalConvertion() throws IOException {
+        File path1 = new File("C:/1/2/3/4/../../..");
+        File path2 = new File("C:/1/2/../../1");
+        File canonicalPath = new File("C:/1");
+        path1.createNewFile();
+        path2.createNewFile();
+        System.out.println(path1.getAbsolutePath());
+        System.out.println(path2.getAbsolutePath());
+        System.out.println(path1.getCanonicalPath());
+        System.out.println(path2.getCanonicalPath());
+        assertEquals(path1.getCanonicalPath(), path2.getCanonicalPath());
+        assertEquals(canonicalPath.getCanonicalPath(), path1.getCanonicalPath());
     }
 }
