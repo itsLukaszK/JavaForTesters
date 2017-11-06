@@ -4,9 +4,7 @@ import org.junit.Test;
 
 import java.io.*;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class Chapter019Files {
     @Test
@@ -62,5 +60,12 @@ public class Chapter019Files {
         System.out.println(path2.getCanonicalPath());
         assertEquals(path1.getCanonicalPath(), path2.getCanonicalPath());
         assertEquals(canonicalPath.getCanonicalPath(), path1.getCanonicalPath());
+    }
+
+    @Test
+    public void checkThatTheTempDirectoryIsADirectory() {
+        File tempDirectory = new File(System.getProperty("java.io.tmpdir"));
+        assertTrue(tempDirectory.isDirectory());
+        assertFalse(tempDirectory.isFile());
     }
 }
