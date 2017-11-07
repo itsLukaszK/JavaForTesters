@@ -68,4 +68,47 @@ public class Chapter019Files {
         assertTrue(tempDirectory.isDirectory());
         assertFalse(tempDirectory.isFile());
     }
+
+    @Test
+    public void writeToAPrintWriterThenAppend() throws IOException {
+        File file = File.createTempFile(String.valueOf(System.currentTimeMillis()), null);
+        FileWriter fileWriter = new FileWriter(file);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+        PrintWriter printWriter = new PrintWriter(bufferedWriter);
+        printWriter.println(System.currentTimeMillis());
+        printWriter.println("---");
+        printWriter.close();
+        FileWriter writer = new FileWriter(file, true);
+        BufferedWriter bufferedWriter1 = new BufferedWriter(writer);
+        PrintWriter printWriter1 = new PrintWriter(bufferedWriter1);
+        long nanoTime = System.nanoTime();
+        printWriter1.println(nanoTime);
+        printWriter1.close();
+        FileReader fileReader = new FileReader(file);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+        try {
+            String line;
+            while ((line = bufferedReader.readLine()) != null) System.out.println(line);
+        } finally {
+            bufferedReader.close();
+        }
+        assertEquals(String.valueOf(System.currentTimeMillis()).length() + 3 + String.valueOf(nanoTime).length() + 3 * System.lineSeparator().length(), file.length());
+    }
+
+    @Test
+    public void useListFilesToShowTheTempDirectoryContents() {
+        File tempDir = new File(System.getProperty("java.io.tmpdir"));
+        File tempDirFiles[] = tempDir.listFiles();
+        for (File file :
+                tempDirFiles) {
+            if (file.isDirectory()) {
+                System.out.println("DIR: " + file.getName());
+            } else System.out.println("FIL: " + file.getName());
+            System.out.println("Is the directory/file readable? " + file.canRead());
+            System.out.println("Is the directory/file writable? " + file.canWrite());
+            System.out.println("Is the directory/file executable? " + file.canExecute());
+            System.out.println("The directory/file was modified on " + file.lastModified());
+            System.out.println("");
+        }
+    }
 }
