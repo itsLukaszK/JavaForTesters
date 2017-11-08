@@ -3,7 +3,11 @@ package com.javafortesters.chap019.examples;
 import org.junit.Test;
 
 import java.io.*;
+import java.nio.file.Files;
 
+import static java.nio.file.StandardCopyOption.ATOMIC_MOVE;
+import static java.nio.file.StandardCopyOption.COPY_ATTRIBUTES;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 import static org.junit.Assert.*;
 
 public class Chapter019Files {
@@ -110,5 +114,16 @@ public class Chapter019Files {
             System.out.println("The directory/file was modified on " + file.lastModified());
             System.out.println("");
         }
+    }
+
+    @Test
+    public void copyAndMoveAFile() throws IOException {
+        File file = File.createTempFile("file", ".txt");
+        File copiedFile = new File("C:", "Files" + File.separator + file.getName());
+        copiedFile.createNewFile();
+        File movedFile = new File("C:", "Files" + File.separator + "movedFile.txt");
+        movedFile.createNewFile();
+        Files.copy(file.toPath(), copiedFile.toPath(), COPY_ATTRIBUTES, REPLACE_EXISTING);
+        Files.move(file.toPath(), movedFile.toPath(), REPLACE_EXISTING, ATOMIC_MOVE);
     }
 }
