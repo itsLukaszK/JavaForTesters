@@ -5,9 +5,7 @@ import org.junit.Test;
 import java.io.*;
 import java.nio.file.Files;
 
-import static java.nio.file.StandardCopyOption.ATOMIC_MOVE;
-import static java.nio.file.StandardCopyOption.COPY_ATTRIBUTES;
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
+import static java.nio.file.StandardCopyOption.*;
 import static org.junit.Assert.*;
 
 public class Chapter019Files {
