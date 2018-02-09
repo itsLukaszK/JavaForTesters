@@ -11,12 +11,14 @@ public class TempTests {
 
 //        System.out.println("Podaj indeks tablicy, który chcesz zobaczyć: ");
 //        index = scanner.nextInt();
-
-        try {
-            System.out.println(tab[index]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            e.printStackTrace();
+        if (index < 0) {
+            throw new ArrayIndexOutOfBoundsException("index < 0");
         }
+        System.out.println(tab[index]);
+
+//        catch (ArrayIndexOutOfBoundsException e) {
+//            e.printStackTrace();
+//        }
 
     }
 }

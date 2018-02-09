@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="" />
+    <list default="true" id="788ca78d-b2bd-4c5d-958e-766310ec19b9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/temp_tests/TempTests.java" afterPath="$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/temp_tests/TempTests.java" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" afterPath="$PROJECT_DIR$/javaForTesters/target/classes/com/javafortesters/domainentities/User.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap009/examples/Chapter009.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap009/examples/Chapter009.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap010/examples/Chapter010.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap010/examples/Chapter010.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap011exceptions/examples/ExceptionsExampleTest.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap013/examples/Chapter013.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap013/examples/Chapter013.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap015/examples/Chapter015StringsRevisited.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap015/examples/Chapter015StringsRevisited.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap016/examples/Chapter016RandomData.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap016/examples/Chapter016RandomData.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap017/examples/Chapter017DatesAndTimes.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap017/examples/Chapter017DatesAndTimes.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap018/examples/Chapter018PropertiesAndPropertyFiles.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap018/examples/Chapter018PropertiesAndPropertyFiles.class" />
+      <change beforePath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap019/examples/Chapter019Files.class" afterPath="$PROJECT_DIR$/javaForTesters/target/test-classes/com/javafortesters/chap019/examples/Chapter019Files.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/javaForTesters/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,26 +75,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SomeClassImplementingAbstract.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SomeClassImplementingAbstract.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/temp_classes/SomeClassImplementingAbstract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="6" column="115" lean-forward="true" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
                 <element signature="e#430#431#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TempTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/temp_tests/TempTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -576,18 +580,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter019Files_writeOutTheRoots - 2017.11.06 at 18h 49m 03s.xml">
-      <configuration name="Chapter019Files.writeOutTheRoots" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter019Files_writeToAPrintWriterThenAppend - 2017.11.07 at 17h 08m 24s.xml">
-      <configuration name="Chapter019Files.writeToAPrintWriterThenAppend" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter019Files_writeToAPrintWriterThenAppend - 2017.11.07 at 17h 11m 21s.xml">
-      <configuration name="Chapter019Files.writeToAPrintWriterThenAppend" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter019Files_writeToAPrintWriterThenAppend - 2017.11.07 at 17h 18m 17s.xml">
-      <configuration name="Chapter019Files.writeToAPrintWriterThenAppend" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TempTests_tryCatch - 2018.02.08 at 20h 38m 58s.xml">
       <configuration name="TempTests.tryCatch" configurationId="JUnit" />
     </history-entry>
@@ -606,6 +598,18 @@
     <history-entry file="TempTests_tryCatch - 2018.02.08 at 20h 45m 13s.xml">
       <configuration name="TempTests.tryCatch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TempTests_tryCatch - 2018.02.09 at 09h 00m 32s.xml">
+      <configuration name="TempTests.tryCatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempTests_tryCatch - 2018.02.09 at 09h 02m 53s.xml">
+      <configuration name="TempTests.tryCatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempTests_tryCatch - 2018.02.09 at 09h 03m 47s.xml">
+      <configuration name="TempTests.tryCatch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TempTests_tryCatch - 2018.02.09 at 09h 04m 17s.xml">
+      <configuration name="TempTests.tryCatch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,23 +621,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23718888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32131496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48508635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -645,6 +648,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -963,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,27 +1037,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/temp_tests/TempTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaForTesters/src/main/java/com/javafortesters/temp_classes/SomeClassImplementingAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="6" column="115" lean-forward="true" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#430#431#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaForTesters/src/test/java/com/javafortesters/temp_tests/TempTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
